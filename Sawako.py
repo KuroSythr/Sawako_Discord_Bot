@@ -44,11 +44,14 @@ client.run(TOKEN)
 import discord
 from discord.ext.commands import Bot
 import string
+import _json
 
 client = discord.Client()
 BOT_PREFIX = '!'
 
-TOKEN = 'NjA4MjkzOTExNjI2MTIxMjI2.XUmGCg.cnkYjJeiqtyp-DBNKEnselzsrIw'
+f = open(config.json)
+
+TOKEN = _json.load(f)
 
 @client.event
 async def on_ready():
