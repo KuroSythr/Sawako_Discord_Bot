@@ -1,1 +1,2 @@
-# Sawako_Discord_Bot
+# Sawako Discord Bot
+Discord bot made for fun.
